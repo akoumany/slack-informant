@@ -1,6 +1,6 @@
-name: 'Slack Notify'
-description: 'This action will send a notification to Slack'
-author: 'rtCamp'
+name: 'Slack Informant'
+description: 'This action will send a notification to Slack. forked from rtCamp'
+author: 'akoumany'
 runs:
   using: 'docker'
   image: 'docker://ghcr.io/rtcamp/action-slack-notify:v2.1.2'
